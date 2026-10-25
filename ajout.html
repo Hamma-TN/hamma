@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mesStyle1.css">
+    <script src="mescontrols.js"></script>
+</head>
+<body>
+    <form onsubmit="return valid1()" >
+        <fieldset>
+            <legend>
+                ajout d'un bijou
+            </legend>
+            <fieldset>
+                <legend>
+                    détails
+                </legend>
+                <table>
+                    <tr>
+                        <td>identifiant : </td>
+                        <td><input type="text" name="" id="idt"></td>
+                    </tr>
+                    <tr>
+                        <td>description : </td>
+                        <td><input type="text" name="" id="dpt" required></td>
+                    </tr>
+                    <tr>
+                        <td>prix de vente : </td>
+                        <td><input type="text" name="" id="pv"> dinars</td>
+                    </tr>
+                    <tr>
+                        <td>poids : </td>
+                        <td><input type="text" name="" id="pd" value="1">gramme(s)</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    composition
+                </legend>
+                <input type="checkbox" name="btn" id="btn1">argent
+                <input type="checkbox" name="btn" id="btn2">or
+                <input type="checkbox" name="btn" id="btn3">platin
+            </fieldset>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><input type="reset" value="annuler">
+                        <input type="submit" value="enregitrer"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
